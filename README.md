@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Temperature Converter - README</title>
+
+<title>Temperature Converter</title>
 </head>
 <body>
 
@@ -32,65 +29,3 @@
   <li><strong>Clean, centered UI</strong> — simple, responsive layout with clear labels</li>
 </ul>
 
-<hr>
-
-<h2>🧮 Conversion Formulas</h2>
-<table border="1" cellpadding="8" cellspacing="0">
-  <tr><th>From → To</th><th>Formula</th></tr>
-  <tr><td>Celsius → Fahrenheit</td><td><code>(C × 9/5) + 32</code></td></tr>
-  <tr><td>Fahrenheit → Celsius</td><td><code>(F − 32) × 5/9</code></td></tr>
-  <tr><td>Celsius → Kelvin</td><td><code>C + 273.15</code></td></tr>
-  <tr><td>Kelvin → Celsius</td><td><code>K − 273.15</code></td></tr>
-  <tr><td>Fahrenheit → Kelvin</td><td><code>(F − 32) × 5/9 + 273.15</code></td></tr>
-  <tr><td>Kelvin → Fahrenheit</td><td><code>(K − 273.15) × 9/5 + 32</code></td></tr>
-</table>
-
-<hr>
-
-<h2>📁 Project Structure</h2>
-<pre>
-temperature-converter/
-├── index.html      (Markup and page structure)
-├── styles.css       (Styling and layout)
-├── script.js         (Conversion logic, validation, and event handling)
-└── README.md
-</pre>
-
-<hr>
-
-<h2>🚀 Getting Started</h2>
-<p>No build tools or dependencies needed.</p>
-<ol>
-  <li>Clone the repository:
-    <pre>git clone https://github.com/&lt;your-username&gt;/temperature-converter.git</pre>
-  </li>
-  <li>Open <code>index.html</code> in your browser.</li>
-</ol>
-<p>That's it — the app runs entirely client-side.</p>
-
-<hr>
-
-<h2>🛠️ Tech Stack</h2>
-<ul>
-  <li>HTML5</li>
-  <li>CSS3</li>
-  <li>Vanilla JavaScript (ES6+)</li>
-</ul>
-
-<hr>
-
-<h2>📌 Notes</h2>
-<p>This project was built as part of a Web Technologies coursework assignment, focusing on:</p>
-<ul>
-  <li>DOM manipulation and event handling</li>
-  <li>Client-side input validation</li>
-  <li>Real-world edge-case handling (physical temperature limits)</li>
-</ul>
-
-<hr>
-
-<h2>📄 License</h2>
-<p>This project is open source and available for educational use.</p>
-
-</body>
-</html>
